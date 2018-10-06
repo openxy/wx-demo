@@ -1,0 +1,3 @@
+build/*.js
+config/*.js
+src/network/*.js
