@@ -2,6 +2,24 @@
 
 > A Mpvue project
 
+
+## 功能
+一个简单的博客程序，主要演示基于jsonapi规范的网络存取等
+
+
+## 客户端
+基于 https://github.com/wopian/kitsu 
+
+结合 fly 进行了定制
+
+## 服务端
+基于fast jsonapi 及 rspec api document
+
+## todo
+* 上线服务端，方便测试
+* 关联等复杂操作的演示页面
+
+
 ## Build Setup
 
 ``` bash
