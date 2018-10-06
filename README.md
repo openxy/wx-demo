@@ -6,9 +6,6 @@
 ## 功能
 一个简单的博客程序，主要演示基于jsonapi规范的网络存取与restful操作等
 
-## 基于 json api 的文档
-https://ktt.openxyz.com/docs
-
 ## 客户端
 基于 https://github.com/wopian/kitsu 
 
@@ -19,10 +16,10 @@ https://ktt.openxyz.com
 
 当前仅有Post一个资源
 
-基于fast jsonapi 
+基于 json api 的 api 文档: https://ktt.openxyz.com/docs
 
 ## todo
-* create 和 update 页面
+* create 和 update 页面 
 * included、sort、分页等查询
 * 一对一关联的查询与更新
 * 一对多关联的查询与更新
