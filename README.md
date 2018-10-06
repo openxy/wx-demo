@@ -4,21 +4,28 @@
 
 
 ## 功能
-一个简单的博客程序，主要演示基于jsonapi规范的网络存取等
+一个简单的博客程序，主要演示基于jsonapi规范的网络存取与restful操作等
 
+## 基于 json api 的文档
+https://ktt.openxyz.com/docs
 
 ## 客户端
 基于 https://github.com/wopian/kitsu 
 
-结合 fly 进行了定制
+结合 fly 进行了定制和修改
 
 ## 服务端
-基于fast jsonapi 及 rspec api document
+https://ktt.openxyz.com
+
+当前仅有Post一个资源
+
+基于fast jsonapi 
 
 ## todo
-* 上线服务端，方便测试
-* 关联等复杂操作的演示页面
-
+* create 和 update 页面
+* included、sort、分页等查询
+* 一对一关联的查询与更新
+* 一对多关联的查询与更新
 
 ## Build Setup
 
