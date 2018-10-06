@@ -23,6 +23,26 @@ https://ktt.openxyz.com
 * included、sort、分页等查询
 * 一对一关联的查询与更新
 * 一对多关联的查询与更新
+* 进一步封装为oop模式
+
+## 提示
+
+```
+# create
+api.create('post', {    
+    title:'test',
+    content:'test',
+})
+```
+
+```
+# update
+api.update('post', {
+    id:1,
+    title:'test',
+    content:'test',
+})
+```
 
 ## Build Setup
 
