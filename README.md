@@ -29,7 +29,7 @@ https://ktt.openxyz.com
 
 ```
 # create
-api.create('post', {    
+api.create('posts', {    
     title:'test',
     content:'test',
 })
@@ -37,7 +37,7 @@ api.create('post', {
 
 ```
 # update
-api.update('post', {
+api.update('posts', {
     id:1,
     title:'test',
     content:'test',

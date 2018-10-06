@@ -25,7 +25,7 @@ export default {
     // this.id = options.id
     const api = new Kitsu()
     // console.log('xxxxxx', options.id)
-    api.get('post/' + options.id, {
+    api.get('posts/' + options.id, {
     })
       .then((data) => {
         this.post = data.data
